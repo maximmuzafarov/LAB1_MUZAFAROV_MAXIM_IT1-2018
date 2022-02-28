@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <display-name>Country</display-name>
+    <welcome-file-list>
+        <welcome-file>CountryServlet</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>Country</servlet-name>
+        <servlet-class>Country</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Country</servlet-name>
+        <url-pattern>/country</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Flag</servlet-name>
+        <servlet-class>Flag</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Flag</servlet-name>
+        <url-pattern>/flag</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Information</servlet-name>
+        <servlet-class>Information</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Information</servlet-name>
+        <url-pattern>/information</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Language</servlet-name>
+        <servlet-class>Language</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Language</servlet-name>
+        <url-pattern>/language</url-pattern>
+    </servlet-mapping>
+</web-app>
